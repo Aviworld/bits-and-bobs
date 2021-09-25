@@ -1,0 +1,19 @@
+{
+"parent": "minecraft:end/enter_end_gateway",
+"display":
+{
+"icon":
+{"item": "minecraft:cookie", "nbt":"{CustomModelData:7130006}"},
+"title":
+{"translate": "avian.advancements.name.chorus_pop_escape"},
+"description":
+{"translate": "avian.advancements.desc.chorus_pop_escape"},
+"frame": "challenge",
+"show_toast": true,
+"announce_to_chat": true,
+"hidden": false
+},
+"criteria": {
+"none": {
+"trigger": "minecraft:impossible"
+}}}

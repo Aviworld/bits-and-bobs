@@ -1,0 +1,11 @@
+{
+"rewards": {
+"function": "avian:entity/player/craft/clear_recipes",
+"loot": ["avian:item/quartz_salt"]
+},
+"criteria": {
+"craft": {
+"trigger": "minecraft:recipe_unlocked",
+"conditions": {
+"recipe": "avian:quartz_salt"
+}}}}

@@ -1,0 +1,1 @@
+function avian:entity/wandering_trader/rare_item

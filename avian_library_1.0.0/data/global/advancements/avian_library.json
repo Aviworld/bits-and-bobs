@@ -1,0 +1,16 @@
+{
+    "display": {
+        "title": "Avian Library",
+        "description": "Library for Avitopia\'s datapacks",
+        "icon": 
+{"item": "minecraft:feather"},
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:avian",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+execute as @s[tag=!avian.player.block_action.1] positioned ~ ~1.8 ~ positioned ^ ^ ^1 if block ~ ~ ~ #avian:air_like unless block ^ ^ ^1 #avian:air_like unless entity @e[distance=0..0.99,tag=avian.block] run function avian:block/tinker_table/place
+execute as @s[tag=!avian.player.block_action.1] positioned ~ ~1.8 ~ positioned ^ ^ ^2 if block ~ ~ ~ #avian:air_like unless block ^ ^ ^1 #avian:air_like unless entity @e[distance=0..0.99,tag=avian.block] run function avian:block/tinker_table/place
+execute as @s[tag=!avian.player.block_action.1] positioned ~ ~1.8 ~ positioned ^ ^ ^3 if block ~ ~ ~ #avian:air_like unless block ^ ^ ^1 #avian:air_like unless entity @e[distance=0..0.99,tag=avian.block] run function avian:block/tinker_table/place
+execute as @s[tag=!avian.player.block_action.1] positioned ~ ~1.8 ~ positioned ^ ^ ^4 if block ~ ~ ~ #avian:air_like unless block ^ ^ ^1 #avian:air_like unless entity @e[distance=0..0.99,tag=avian.block] run function avian:block/tinker_table/place
+
+tag @s remove avian.player.block_action.1

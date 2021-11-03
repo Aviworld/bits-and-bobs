@@ -1,1 +1,1 @@
-Hi! Thank you for choosing Avitopia's Bits & Bobs.
+Hi! Thank you for choosing Avian Datapacks.
